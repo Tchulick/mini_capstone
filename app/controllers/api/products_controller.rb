@@ -4,8 +4,9 @@ class Api::ProductsController < ApplicationController
     render "products.json.jb"
   end
 
-  def first_product_action
-    @product_1 = Product.first
+  def any_product_action
+    @product_number = params["product_number"]
+    @product_1 = Product.find(@product_number)
     render "first_product.json.jb"
   end
 
