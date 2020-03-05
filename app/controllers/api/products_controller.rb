@@ -6,7 +6,7 @@ class Api::ProductsController < ApplicationController
 
   def any_product_action
     @product_number = params["product_number"]
-    @product_1 = Product.find(@product_number)
+    @product = Product.find(@product_number)
     render "first_product.json.jb"
   end
 
