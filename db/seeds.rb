@@ -11,3 +11,8 @@
 
 # new_product_2 = Product.new({ name: "Plate mail", price: 200, description: "Heavy armor, covering the body in metal plates." })
 # new_product_2.save
+
+# image = Image.create({ url: "", product_id: 1 })
+# image = Image.create({ url: "", product_id: 1 })
+# image = Image.create({ url: "", product_id: 1 })
+# image = Image.create({ url: "", product_id: 1 })
