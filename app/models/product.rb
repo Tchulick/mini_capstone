@@ -10,4 +10,5 @@ class Product < ApplicationRecord
   end
 
   has_many :images
+  has_many :orders
 end
